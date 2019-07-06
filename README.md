@@ -1,5 +1,5 @@
 ## .Net Core 实践
-本文介绍dotnet core 环境下的一些常用使用方法和实践过程，包括：mvc,webapi,cache... 如果你任何问题可以直接与我联系，联系方式：chenzuo@hotmail.com,如需要转发请标明出处，本系列首发于[github.com/chenzuo](https://github.com/chenzuo/,chenzuo) ;
+本文介绍dotnet core 环境下的一些常用使用方法和实践过程，包括：mvc,webapi,cache... 如果你任何问题可以直接与我联系，联系方式：chenzuo@hotmail.com,如需要转发请标明出处，本系列文章首发于[github.com/chenzuo](https://github.com/chenzuo/);
 + 如何创建一个在windows和linux下运行的控制台应用程序
 + 如何使用 .net core开发一个中间键
 + 在 .net core中使用webapi、mvc进行简单的数据访问操作

@@ -6,7 +6,7 @@
 C#开发环境的首选操作系统是Windows，其次就mac OS,建议不要使用linux，而在运行环境的选择来说：建议首选择linux，其次是windows，暂时还没有看到很大规模的应用程序运行在以mac OS的操作系统之上。  
 
 下面分别介绍Windows的开发环境与linux运行开发工具包和运行时平台的安装;  
-如需要转发请标明出处，本系列文章首发于[github.com/chenzuo](https://github.com/chenzuo/,chenzuo);联系方式：chenzuo@hotmail.com;
+如需要转发请标明出处，本系列文章首发于[github.com/chenzuo](https://github.com/chenzuo/);联系方式：chenzuo@hotmail.com;
 #### 在windows下安装SDK开发包和集成开发工具
 熟悉使用winodws的同学都非常了解windows软件的安装使用，所以这儿我就直接贴出安装包下载地址：  
 + 集成开发工具下载：[Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/).建议下载企业版本，不要问为什么，照做即可:)
