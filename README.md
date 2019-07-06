@@ -19,11 +19,11 @@
 - 开发工具：Visual Studio 2019 、VS Code
 - 目标成果：使初学者快速使用现在的工具快速的进行简单项目开发、部署、运维
 
-### （一）.NET Core 开发、运行环境准备  
- - [ ] .NET Core SDK 在开发环境中的安装 
- - [ ] 集成环境工具选择
- - [ ] .NET Core 运行时在目标操作系统(linux)上的安装
- - [ ] Nginx反向代理服务安装
+### [（一）.NET Core 开发、运行环境准备](./dotnet-core-development-runtime-environment.md) 
+ - [x] .NET Core SDK 在开发环境中的安装 
+ - [x] 集成环境工具选择
+ - [x] .NET Core 运行时在目标操作系统(linux)上的安装
+ - [x] Nginx反向代理服务安装
  ### （二）Linux下的第一个可执行应用程序
 - [ ] 命令行中创建”Hello World”控制台应用程序 
 - [ ] 命令行编译、发布
