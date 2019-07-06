@@ -43,7 +43,7 @@
 - [ ] Nginx配置反向代理访问WebApi服务
 - [ ] 配置各站点、配置https、域名绑定
 - [ ] 在浏览器中测试结果
-### (六)WebApi、asp.net mvc 中的单元测
+### (六)WebApi、Asp.Net MVC 中的单元测
 ### (七)ASP .NET CORE MVC常用安全配置
 ### (八).NET Core中的依赖注入
 - [ ] 什么是依赖注入
