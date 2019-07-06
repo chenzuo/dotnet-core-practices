@@ -1,2 +1,2 @@
-# dotnet-core-practices
-dotnet core practices
+# Dot Net core 实践示例
+本文介绍dotnet core 环境下的一些常用使用方法和实践过程，包括：mvc,webapi,cache...
