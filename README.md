@@ -66,7 +66,7 @@
     + 身份验证：UseAuthentication
     + 重写一个中间件
 ## (十一)Http无状态认证鉴权实现
-- [ ]对于Http无状态认证常用方式
+- [ ] 对于Http无状态认证常用方式
     + Cookie
     + TOKEN
         + JWT方式
@@ -74,26 +74,26 @@
 - [ ] 第三方认证后本地服务如何使用状态管理
     + Claims based security 
 ## (十二)依赖包管理
-- [ ]项目中用私有包管理器好处
-- [ ]搭建私有NuGet包管理服务器
-- [ ]VS中通过项目配置文件方式配置NuGet包
-- [ ]命令行方式操作一个NuGet配置与推送到远程服务器中
-- [ ]手动发布到私有包管理服务器
-- [ ]在VS中配置发布到包到私有包管理服务器
+- [ ] 项目中用私有包管理器好处
+- [ ] 搭建私有NuGet包管理服务器
+- [ ] VS中通过项目配置文件方式配置NuGet包
+- [ ] 命令行方式操作一个NuGet配置与推送到远程服务器中
+- [ ] 手动发布到私有包管理服务器
+- [ ] 在VS中配置发布到包到私有包管理服务器
 ## (十三)搭建一个简单的前后端应用示例
 ## (十四)使用docker工具打包.NET Core应用程序
 ## (十五)使用K8s部署.NET Core应用程序
 ## (十六)使用Service fabric进行分布式应用管理
-- [ ]在windows 10下快速搭建Service fabric开发环境
+- [ ] 在windows 10下快速搭建Service fabric开发环境
     + 安装包方式
     + PowerShell脚本命令方式
-- [ ]的多台云服务器中搭建安全Service Fabric运行环境
-- [ ]部署示例程序到Service fabric环境中
-- [ ]命令方式进行对系统扩容与收缩
-- [ ]在自运行系统中的代码里进行系统扩容与收缩
-- [ ]手动故障点测试
+- [ ] 的多台云服务器中搭建安全Service Fabric运行环境
+- [ ] 部署示例程序到Service fabric环境中
+- [ ] 命令方式进行对系统扩容与收缩
+- [ ] 在自运行系统中的代码里进行系统扩容与收缩
+- [ ] 手动故障点测试
 ## (十四)如何在Jenkins中进行CI/CD
-- [ ]把目标应用程序通过Jenkins打包成docker包然后部署到k8s中
-- [ ]把目标应用程序通过Jenkins发布到Service fabric中
+- [ ] 把目标应用程序通过Jenkins打包成docker包然后部署到k8s中
+- [ ] 把目标应用程序通过Jenkins发布到Service fabric中
 ## 一些示例脚本
-- [ ]Service fabric生产环境的部署安装脚本
+- [ ] Service fabric生产环境的部署安装脚本
