@@ -87,7 +87,7 @@
 - [ ] 在windows 10下快速搭建Service fabric开发环境
     + 安装包方式
     + PowerShell脚本命令方式
-- [ ] 的多台云服务器中搭建安全Service Fabric运行环境
+- [x] [多台云服务器中搭建安全Service Fabric运行环境](https://github.com/service-fabric/ServiceFabricPractices/blob/master/%E5%88%9B%E5%BB%BA%E4%BD%BF%E7%94%A8X509%E8%AF%81%E4%B9%A6%E4%BF%9D%E6%8A%A4%E7%9A%84%20Service%20Fabric%20%E5%AE%89%E5%85%A8%E7%BE%A4%E9%9B%86(On%20Premises).md)
 - [ ] 部署示例程序到Service fabric环境中
 - [ ] 命令方式进行对系统扩容与收缩
 - [ ] 在自运行系统中的代码里进行系统扩容与收缩
