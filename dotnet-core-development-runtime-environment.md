@@ -8,7 +8,7 @@ C#开发环境的首选操作系统是Windows，其次就mac OS,建议不要使�
 下面分别介绍Windows的开发环境与linux运行开发工具包和运行时平台的安装;
 #### 在windows下安装SDK开发包和集成开发工具
 熟悉使用winodws的同学都非常了解windows软件的安装使用，所以这儿我就直接贴出安装包下载地址：  
-+ 集成开发工具下载：
++ 集成开发工具下载：[Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/).建议下载企业版本，不要问为什么，照做即可:)
 + SDK工具包下载地址：[.NET Core 2.2 SDK](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer,.NET),如果你开发环境是Visual Studio 2017，那么你需要下载是安装包是：[.NET Core 2.2 SDK](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.107-windows-x64-installer)  
 + .NET版本对应的安装包地址：[dotnet-core](https://dotnet.microsoft.com/download/dotnet-core/2.2#sdk-2.2.107)  
 + 开发工具对应的 .NET Core安装包环境下载地址：[Visual Studio SDK For .NET Core ](https://dotnet.microsoft.com/download/visual-studio-sdks)
