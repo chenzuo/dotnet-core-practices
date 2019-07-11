@@ -27,3 +27,9 @@ sudo yum update
 sudo yum install aspnetcore-runtime-2.2
 ```
 这样就已经准备好了使用C#语言在.NET Core平台上的开发环境与运行环境。
+
+####  linux常规操作命令集整理
++ 列出当前目录下所有文件与目录  
+```sh
+ls
+```
