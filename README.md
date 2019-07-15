@@ -52,9 +52,9 @@
 - [ ] 编写一个依赖注入应用的单元测试
 ### (九)	访问数据库
 - [ ] .NET Core平台下简单数据库访问
-- [ ] ef core方式访问  
-    + db first
-    + code first
+- [ ] Ef Core方式访问  
+    + Db First
+    + Code First
     + In-Memory Database Provider 方式单元测试
     + 实际连接Mysql、MSSQLSERVER情况下数据关系映射
 ### (十)一些简单中间件的使用
