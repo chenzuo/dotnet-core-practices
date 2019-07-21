@@ -158,7 +158,8 @@ latest: Pulling from library/centos
 Digest: sha256:989b936d56b1ace20ddf855a301741e52abca38286382cba7f44443210e96d16
 Status: Downloaded newer image for centos:latest
 ```
-本文发布由https://github.com/chenzuo/dotnet-core-practices原创，如需要转载请标明连接。
+本文发布由[chenzuo](https://github.com/chenzuo/dotnet-core-practices)原创,如需要转载请标明连接。  
+
 下载的速度是看你服务器与docker hub间的网络情况，有时候也许几秒，有时可能几分钟。如果你下载完成后，你可以使查看镜像
 ```sh
 docker image ls
