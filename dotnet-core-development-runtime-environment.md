@@ -16,7 +16,14 @@ C#开发环境的首选操作系统是Windows，其次就mac OS,建议不要使�
 
 以上是下载地址，你可以选择对应SDK或开发工具然后根据你在windows使用经验进行安装吧:)
 #### 在linux操作系统上安装.NET Core运行时环境
-在.NET Core未出世前，我们都是在windows开发与运行，但是 .NET Core出来后，改变了我们之前的一惯作法，我们可以把开发好的应用程序部署在linux下运行（前提是必须是在.NET Core下编译通过的），那么在linux下安装 .NET Core运行时，也是非常简单，只需要你使用对应安装命令即可，我们推荐使用centos7.0以上的版本，当然你可以使用ubuntu系统，centos操作系统正安装运行时命令是：  
+在.NET Core未出世前，我们都是在windows开发与运行，但是 .NET Core出来后，改变了我们之前的一惯作法，我们可以把开发好的应用程序部署在linux下运行（前提是必须是在.NET Core下编译通过的），那么在linux下安装 .NET Core运行时，也是非常简单，只需要你使用对应安装命令即可，我们推荐使用centos7.0以上的版本，当然你可以使用ubuntu系统，centos操作系统正安装运行时命令是： 
+运行安装前，建议清理系统中的源加载：
+```sh
+# rm -fr /var/cache/yum/*
+# yum clean all
+``` 
+或者参考链接：
+Why does yum return error: [Errno 256] No more mirrors to try.[Url](https://rmohan.com/?p=4755)  
 在系统中注册:microsoft product repository:
 ```sh
 sudo rpm -Uvh https://packages.microsoft.com/config/rhel/7/packages-microsoft-prod.rpm
