@@ -52,9 +52,9 @@
 - [ ] 编写一个依赖注入应用的单元测试
 ### (九)	访问数据库
 - [ ] .NET Core平台下简单数据库访问
-- [ ] ef core方式访问  
-    + db first
-    + code first
+- [ ] Ef Core方式访问  
+    + Db First
+    + Code First
     + In-Memory Database Provider 方式单元测试
     + 实际连接Mysql、MSSQLSERVER情况下数据关系映射
 ### (十)一些简单中间件的使用
@@ -82,6 +82,11 @@
 - [ ] 在VS中配置发布到包到私有包管理服务器
 ### (十三)搭建一个简单的前后端应用示例
 ### (十四)使用docker工具打包.NET Core应用程序
+- [x] 如何在[CentOS7中安装与使用Docker](./how-to-install-and-use-docker-on-centos-7.md)
+- [ ] DotNet Core在Docker中的发布与部署  
+    + asp.net core应用程序在docker中的使用  
+    + dotnet application应用程序在docker中的使用
+- [ ] Docker中运行多镜像实例
 ### (十五)使用K8s部署.NET Core应用程序
 ### (十六)使用Service fabric进行分布式应用管理
 - [ ] 在windows 10下快速搭建Service fabric开发环境
