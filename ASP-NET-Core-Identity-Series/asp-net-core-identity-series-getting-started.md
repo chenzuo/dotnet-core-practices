@@ -632,7 +632,7 @@ public class UserClaims
 }
 ```  
 ViewModelsUserStateVM.cs  
-```charp
+```csharp
 public class UserStateVM
 {
     public bool IsAuthenticated { get; set; }
@@ -677,7 +677,7 @@ The register component simply registers the user by sending a POST request to th
 
 If you try to view the Claims page without being authenticated you will be redirected in the Login view. This is done through an ***HTTP Interceptor*** which is implemented under the core folder of the client app.  
  
- ```csharp
+ ```ts
 @Injectable()
 export class HttpInterceptor extends Http {
 
