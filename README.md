@@ -73,6 +73,13 @@
         + HTTP BASE Authentication方式
 - [ ] 第三方认证后本地服务如何使用状态管理
     + Claims based security 
+- [x] 基于Microsoft Identity的鉴权与认证实现
+    + Part 1: [基础原理与入门介绍](./ASP-NET-Core-Identity-Series/asp-net-core-identity-series-getting-started.md)  
+    + [x] Part 2: 与Entity Framework整合  
+    + [ ] Part 3: 深入剖析授权原理  
+    + [ ] Part 4: OAuth 2.0, OpenID Connect & IdentityServer  
+    + [ ] Part 5: 外部提供的认证方式和注册到系统中的策略实现  
+    + [ ] Part 6: 认证的必要二个条件  
 ### (十二)依赖包管理
 - [ ] 项目中用私有包管理器好处
 - [ ] 搭建私有NuGet包管理服务器
