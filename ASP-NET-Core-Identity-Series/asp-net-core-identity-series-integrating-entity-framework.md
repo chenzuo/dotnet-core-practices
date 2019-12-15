@@ -19,3 +19,7 @@ public class AppUserStore : IUserStore<AppUser>, IUserPasswordStore<AppUser></Ap
 services.AddIdentityCore<AppUser>(options => { });
 services.AddScoped<IUserStore<AppUser>, AppUserStore>();
 ```  
+This configuration though is not sufficient (not even close) to leverage all ASP.NET Core Identity library’s features. To make this more clearer just switch to the <font color=#069>AccountController</font> and check the functions provided by a <font color=#069>UserManager</font> through the intellisense.  
+
+![ASP.NET Core Identity Series – Integrating Entity Framework ](./img/Part2/aspnet-core-identity-entity-framework-01.png)  
+
