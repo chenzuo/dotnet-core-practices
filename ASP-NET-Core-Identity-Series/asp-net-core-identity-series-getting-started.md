@@ -725,4 +725,4 @@ export interface UserState {
 }
 ```  
 That’s it we have finished the first part of the <font color=#069>ASP.NET Core Identity Series</font> explainig how to get started with the library while focusing on its core components. Hopefully, you have understand the basic concepts of the library and how stores and managers are associated under the hood. Lots of interesting stuff comming on the next series such as integrating Entity Framework, external provider or token based authentication so make sure to stay tuned! 
->The repository for the Series is [here](https://github.com/chsakell/aspnet-core-identity) and each part will have a related branch
+>The repository for the Series is [here](https://github.com/chenzuo/aspnet-core-identity) and each part will have a related branch
