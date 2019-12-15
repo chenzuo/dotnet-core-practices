@@ -109,3 +109,4 @@
 - [ ] 把目标应用程序通过Jenkins发布到Service fabric中
 ### 一些示例脚本
 - [ ] Service fabric生产环境的部署安装脚本
+- [x] [CentOS 运维的一些常用脚本](./centos-cmd.md)
