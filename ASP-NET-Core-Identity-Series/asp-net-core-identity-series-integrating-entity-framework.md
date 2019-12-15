@@ -66,7 +66,6 @@ git checkout getting-started
 ```  
 This post is part of the ***ASP.NET Core Identity Series***:  
 
-This post is the first part of the **ASP.NET Core Identity Series**:
  - [ ] Part 1: [Getting Started](https://chsakell.com/2018/04/28/asp-net-core-identity-series-getting-started/)  
 - [x] Part 2: [Integrate Entity Framework](https://chsakell.com/2018/05/11/asp-net-core-identity-series-integrating-entity-framework/)  
 - [ ] Part 3: [Deep Dive in authorization](https://chsakell.com/2018/06/13/asp-net-core-identity-series-deep-dive-in-authorization/)  
