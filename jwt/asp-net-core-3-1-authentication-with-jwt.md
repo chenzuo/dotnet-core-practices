@@ -58,6 +58,6 @@ public void ConfigureServices(IServiceCollection services)
 为此，我们必须安装Microsoft.AspNetCore.Authentication.JwtBearer库。  
 
 
-[示例项目]()
+示例项目本目录中。
 
 [具体参考地址](https://code-maze.com/authentication-aspnetcore-jwt-1/)  
