@@ -60,4 +60,5 @@ public void ConfigureServices(IServiceCollection services)
 
 示例项目在本目录中，可以直接运行示例。
 
-[具体参考地址](https://code-maze.com/authentication-aspnetcore-jwt-1/)  
+[示例地址1](https://code-maze.com/authentication-aspnetcore-jwt-1/)   
+[示例地址2](https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api)  
