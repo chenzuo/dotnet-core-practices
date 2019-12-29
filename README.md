@@ -69,7 +69,7 @@
 - [ ] 对于Http无状态认证常用方式
     + Cookie
     + TOKEN
-        + JWT方式
+        + [JWT方式](./jwt/asp-net-core-3-1-authentication-with-jwt.md)
         + HTTP BASE Authentication方式
 - [ ] 第三方认证后本地服务如何使用状态管理
     + Claims based security 
@@ -91,7 +91,7 @@
 ### (十四)使用docker工具打包.NET Core应用程序
 - [x] 如何在[CentOS7中安装与使用Docker](./how-to-install-and-use-docker-on-centos-7.md)
 - [ ] DotNet Core在Docker中的发布与部署  
-    + asp.net core应用程序在docker中的使用  
+    + ASP.NET CORE应用程序在docker中的使用  
     + dotnet application应用程序在docker中的使用
 - [ ] Docker中运行多镜像实例
 ### (十五)使用K8s部署.NET Core应用程序
