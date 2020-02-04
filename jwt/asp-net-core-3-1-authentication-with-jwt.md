@@ -57,6 +57,9 @@ public void ConfigureServices(IServiceCollection services)
 ```  
 为此，我们必须安装Microsoft.AspNetCore.Authentication.JwtBearer库。  
 
+#### 一些有用的资源
++ [identity database 中数据库表关系与使用实践](https://stackoverflow.com/questions/50401190/asp-net-core-identity-use-aspnetuserclaims-or-aspnetroleclaims)  
++ [ASP.NET CORE 中如何创建自定义的属性验证](https://stackoverflow.com/questions/31464359/how-do-you-create-a-custom-authorizeattribute-in-asp-net-core)
 
 示例项目在本目录中，可以直接运行示例。
 
