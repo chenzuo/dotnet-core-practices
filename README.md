@@ -92,14 +92,14 @@
 - [ ] 创建一个单元测试
 - [ ] 创建一个集成测试
 - [ ] 如何开始一个TDD
-### (十四)使用docker工具打包.NET Core应用程序
+### (十五)使用docker工具打包.NET Core应用程序
 - [x] 如何在[CentOS7中安装与使用Docker](./how-to-install-and-use-docker-on-centos-7.md)
 - [ ] DotNet Core在Docker中的发布与部署  
     + ASP.NET CORE应用程序在docker中的使用  
     + dotnet application应用程序在docker中的使用
 - [ ] Docker中运行多镜像实例
-### (十五)使用K8s部署.NET Core应用程序
-### (十六)使用Service fabric进行分布式应用管理
+### (十六)使用K8s部署.NET Core应用程序
+### (十七)使用Service fabric进行分布式应用管理
 - [ ] 在windows 10下快速搭建Service fabric开发环境
     + 安装包方式
     + PowerShell脚本命令方式
@@ -108,7 +108,7 @@
 - [ ] 命令方式进行对系统扩容与收缩
 - [ ] 在自运行系统中的代码里进行系统扩容与收缩
 - [ ] 手动故障点测试
-### (十四)如何在Jenkins中进行CI/CD
+### (十八)如何在Jenkins中进行CI/CD
 - [ ] 把目标应用程序通过Jenkins打包成docker包然后部署到k8s中
 - [ ] 把目标应用程序通过Jenkins发布到Service fabric中
 ### 一些示例脚本
