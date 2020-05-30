@@ -88,6 +88,10 @@
 - [ ] 手动发布到私有包管理服务器
 - [ ] 在VS中配置发布到包到私有包管理服务器
 ### (十三)搭建一个简单的前后端应用示例
+### (十四)可测试的系统架构设计
+- [ ] 创建一个单元测试
+- [ ] 创建一个集成测试
+- [ ] 如何开始一个TDD
 ### (十四)使用docker工具打包.NET Core应用程序
 - [x] 如何在[CentOS7中安装与使用Docker](./how-to-install-and-use-docker-on-centos-7.md)
 - [ ] DotNet Core在Docker中的发布与部署  
