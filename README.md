@@ -108,7 +108,18 @@
 - [ ] 命令方式进行对系统扩容与收缩
 - [ ] 在自运行系统中的代码里进行系统扩容与收缩
 - [ ] 手动故障点测试
-### (十八)如何在Jenkins中进行CI/CD
+### (十八)分布式框架Orleans
+- [ ] Orleans是什么，它可以应用到那些场景中
+- [ ] 程序中有状态，无状态能给我带来什么好处
+- [ ] 什么是Actor模型，什么是Vitual Actor模型
+- [ ] 在游戏中Orleans的使用
+- [ ] 如何快速部署我们的应用在多台服务器中
+### (十九)使用Dapr（Distributed Application Runtime ，分布式应用运行时）来解决我们布式应用
+- [ ] Dapr概述：用我可以做什么？
+- [ ] 如何在Centos中安装Dapr
+- [ ] ASP.NET Core应用程序Host在Dapr中
+- [ ] 在多台服务器中我们如何快速部署或者更新我们应用服务
+### (二十)如何在Jenkins中进行CI/CD
 - [ ] 把目标应用程序通过Jenkins打包成docker包然后部署到k8s中
 - [ ] 把目标应用程序通过Jenkins发布到Service fabric中
 ### 一些示例脚本
