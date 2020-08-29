@@ -1,9 +1,9 @@
-## C＃中的规范模式
+### C＃中的规范模式
 > 本文介绍了如何使用规范模式在C＃中编写Linq查询。
-### 简介
+#### 简介
 
 &#8195;&#8195;在本文中，我们将探索经典的规范模式并实现它，以组成LINQ查询以及非LINQ查询。本文还将帮助初学者了解规范模式以及如何在实践中实现它。规范模式的主要好处包括可重用性，可维护性，业务规则与业务对象之间的松散耦合，可读性和易于测试。
-### 规范模式
+#### 规范模式
 
 &#8195;&#8195;根据Wikipedia的定义，规范模式是一种特殊的软件设计模式，通过使用布尔逻辑将业务规则链接在一起，可以重新组合业务规则。简而言之，业务规则是根据单一职责原则（SRP）进行隔离的，并使用布尔操作数（AND，OR或NOT）进行链接或组合，以实现所需的结果。每个单独的业务规则称为规范。
 
@@ -74,7 +74,7 @@ public class AndSpecification<T> : CompositeSpecification<T>
 ```
 如您所见，IsSatisfiedBy方法在其他规范（带有业务规则）上调用其对应对象，并将结果与布尔AND（&&）合并。 左边和右边的规范（布尔AND的操作数）是在对象实例化期间（参见构造函数）由上一节中讨论的CompositeSpecification类分配的。 和和非规范类也以类似的方式实现。 由于篇幅所限，此处未提供这些类的代码，但完整的源代码附在本文结尾处，供您下载。
 
-### C#中表达式模式
+#### C#中表达式模式
 &#8195;&#8195;上面已经展示了如何实现和使用规范模式，我们已经看到了规范的定义以及如何将它们链接在一起。 但是，包含业务规则的实际规范又如何呢？ 
 
 当我们专注于基于LINQ的表达式时，仅定义一个包含LINQ表达式的规范就足够了。 带有条件的LINQ查询可以在对象上进行检查并返回布尔结果，可以表示为Func <T，bool>类型。 因此，我们的规范类接受这种类型的参数。 IsSatisfiedBy方法在作为参数接收的对象上执行此LINQ表达式，并返回正确或错误的结果。 *除非没有链接，否则链接规范类（（AndSpecification，OrSpecification或NotSpecification）将调用此方法*。
@@ -93,7 +93,7 @@ public class ExpressionSpecification<T> : CompositeSpecification<T>   {
     }
 }
 ```
-### 实际用法
+#### 实际用法
 &#8195;&#8195;最后，让我们通过一个简单的示例查看实际用法。 在我们的示例中，我创建了一个移动电话对象列表，每个对象都有特定的品牌和类型（这些类的源代码可以在本文结尾处的文件中找到）。 我们创建规格以根据类型或品牌选择特定类型的电话模式。 我们还通过链接简单的规范来创建复杂/复合的规范。
 ```c#
 class Program
@@ -130,7 +130,7 @@ class Program
 ```c#
 ISpecification<Mobile> complexSpec = (samsungExpSpec.Or(htcExpSpec)).And(brandExpSpec);
 ```
-### 非LINQ表达式
+#### 非LINQ表达式
 &#8195;&#8195;在某些情况下，我们可能需要在不使用LINQ表达式的情况下定义业务规则。 在这种情况下，expressionSpecification类将替换为与所讨论的业务规则数量相等的简单但不同的Specification类的数量。 在上面的示例中，要找出三星或HTC品牌的手机，我们需要两种不同的规格类别，一种用于三星品牌检查，另一种用于HTC品牌检查。 还应注意，这些规范是特定于类型的，换句话说，与对象模型紧密耦合。 例如，要检查手机的品牌是否为三星，规范类需要事先知道对象的类型。 下面显示了一个非LINQ规范示例，用于基于预定义的成本来评估手机是否为特级手机：
 ```c#
 public class PremiumSpecification<T> : CompositeSpecification<T>
@@ -146,7 +146,7 @@ public class PremiumSpecification<T> : CompositeSpecification<T>
 }
 ```
 如您所见，IsSatisfiedBy方法需要事先知道对象的类型（在这种情况下，对象类型为Mobile）才能访问其Cost属性。
-### 混和使用😁
+#### 混和使用😁
 &#8195;&#8195;在极少数情况下，我们可能需要在业务逻辑中混合使用LINQ和非LINQ表达式。 由于链接规范类（And，Or和Not规范）与业务规则规范类（expressionSpecification和non-LINQ规范）分开，因此我们可以将非LINQ与LINQ表达式类型规范链接在一起。 在上一节中，我们定义了非LINQ规范。 现在，我们可以将它与LINQ表达式链接起来，如下所示：
 ```c#
 ISpecification<Mobile> premiumSpecification = new PremiumSpecification<Mobile>(600);
