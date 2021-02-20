@@ -118,8 +118,9 @@
 ### (十九)使用Dapr（Distributed Application Runtime ，分布式应用运行时）来解决我们分布式应用
 - [ ] Dapr概述：用我可以做什么？
 - [ ] 如何在Centos中安装Dapr
-- [ ] ASP.NET Core应用程序Host在Dapr中
-- [ ] 在多台服务器中我们如何快速部署或者更新我们应用服务
+- [ ] ASP.NET Core应用程序Host在Dapr中.
+- [ ] 在多台服务器中我们如何快速部署或者更新我们应用服务.
+- [ ] 真香组合：asp.net core + dapr + Istio + k8s.
 ### (二十)如何在Jenkins中进行CI/CD
 - [ ] 把目标应用程序通过Jenkins打包成docker包然后部署到k8s中
 - [ ] 把目标应用程序通过Jenkins发布到Service fabric中
