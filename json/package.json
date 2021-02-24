@@ -1,0 +1,17 @@
+{
+  "name": "json-sch",
+  "version": "1.0.1",
+  "description": "json sch test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0"
+  }
+}
