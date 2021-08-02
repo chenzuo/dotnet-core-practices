@@ -57,7 +57,7 @@
     + Code First
     + In-Memory Database Provider 方式单元测试
     + 实际连接Mysql、MSSQLSERVER情况下数据关系映射
-- [x] [C#中规范模式(Specification pattern)](./specification-pattern/SpecificationPattern.md)
+- [x] [C#中规约模式(Specification pattern)](./specification-pattern/SpecificationPattern.md)
 - [x] [在SQLServer 2019 Express中使用FULLTEXT INDEX](./db/full-text-index/full-text-index-sqlserver2019-express.md)
 ### (十)一些简单中间件的使用
 - [ ] 系统中内置的常用中间件介绍
