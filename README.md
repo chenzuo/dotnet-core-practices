@@ -67,6 +67,7 @@
     + Cookie策略实施：UseCookiePolicy
     + 身份验证：UseAuthentication
     + 重写一个中间件
+    + [System.Text.Json多态序列化问题处理](./polymorphic-serialization-in-system-text-json.md)
 ### (十一)Http无状态认证鉴权实现
 - [ ] 对于Http无状态认证常用方式
     + Cookie
