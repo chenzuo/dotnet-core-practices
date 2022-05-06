@@ -132,3 +132,4 @@
 - [x] [Stencil js中文应用文档](./tech/StencilJS/docs/introduction.md)
 ### 前端示例
 - [ ] Working with Sass, Bootstrap5 and Gulp4
+- [ ] Teams App应用开发Teams Bot和AdaptiveCards应用
