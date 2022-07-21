@@ -13,8 +13,8 @@
 
 ### 阅读本文的群体和要掌握的基础知识点
 - 面向 .net core 初中级学者
-- 了解c#基础话法[（C#6.0+）](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
-- 开发环境： .net core 2.2/3.0 ,nodejs,sqlserver express 2017
+- 了解c#基础语法[（C#6.0+）](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
+- 开发环境： .net core 3.1/6.0 ,nodejs8,sqlserver express 2019
 - 准备测试环境：多台云厂商的线上服务器
 - 开发工具：Visual Studio 2019 、VS Code
 - 目标成果：使初学者快速使用现在的工具快速的进行简单项目开发、部署、运维
